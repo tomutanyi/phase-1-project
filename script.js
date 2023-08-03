@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", ()=>
                     <h4><b>${car.name}</b></h4> 
                     <p>${car.price}</p>
                     <p id"carsleft">${car.carsleft}</p>
-                    <button id = "reserve">Reserve</button>
+                    <button id = "reserve" class= "reserve">Reserve</button>
                 </div>
             </div>
             `
