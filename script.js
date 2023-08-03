@@ -60,10 +60,11 @@ document.addEventListener("DOMContentLoaded", ()=>
     }
 
     let carform = document.getElementById("carsubmit")
-    carform.addEventListener("submit",function(event){
-    event.preventDefault()
-    addcar()
-    carform.reset() 
-})
+    carform.addEventListener("submit",function(event)
+    {
+        event.preventDefault()
+        addcar()
+        carform.reset() 
+    })
 
 })
