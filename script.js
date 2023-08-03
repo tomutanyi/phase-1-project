@@ -1,14 +1,14 @@
-document.addEventListener("DOMContentLoaded", ()=> // this ensures all the html has loaded first
+document.addEventListener("DOMContentLoaded", ()=>
 {
     let listcars = document.getElementById("cars")
-    //this fetches the data from the db.json file 
+
+
     fetch("http://localhost:3000/cars")
         .then(resp => resp.json())
         .then(data => displayCars(data))
         .catch(error => console.log(error))
 
 
-    // this displays all the cars in the db.json file to the html file
     function displayCars(cars)
     {
         for (const car of cars)
@@ -21,15 +21,14 @@ document.addEventListener("DOMContentLoaded", ()=> // this ensures all the html 
                 <img src="${car.picture}" alt="Car Image" style="width:100%">
                 <div class="container">
                     <h4><b>${car.name}</b></h4> 
-                    <p>Rental Price: Ksh.${car.price}</p>
-                    <p id = "carsleft${car.id}">Cars available: ${car.carsleft}</p>
+                    <p>${car.price}</p>
+                    <p id = "carsleft${car.id}">${car.carsleft}</p>
                     <button id = "reserve${car.id}" class= "reserve">Reserve</button>
                 </div>
             </div>
             `
             listcars.appendChild(li)
 
-            //this event listener listens for a click and reduces the number of cars left for a particular car by 1
             let reserve = document.querySelector(`#reserve${car.id}`)
             let carsleft = document.querySelector(`#carsleft${car.id}`)
             reserve.addEventListener("click", () => {
@@ -38,12 +37,11 @@ document.addEventListener("DOMContentLoaded", ()=> // this ensures all the html 
                     remaining = parseInt(remaining) - 1;
                     carsleft.innerText = `${remaining}`;
                     updateCarsLeft(car.id, remaining);
-                // when cars left is <= 0 then an alert is fired
                 } else {
                     alert('No more cars available for reservation.');
                 }
             });
-            // updateCarsLeft function changes the cars left in the db.json file.
+            
             function updateCarsLeft(carId, newCarsLeft) {
                 fetch(`http://localhost:3000/cars/${carId}`, {
                     method: "PATCH",
@@ -59,8 +57,6 @@ document.addEventListener("DOMContentLoaded", ()=> // this ensures all the html 
         }
     }
 
-    // the addcar() function allows someone to add a car with all the details necessary
-    // then refresh the page and see it displayed
     function addcar()
     {
         fetch("http://localhost:3000/cars", 
