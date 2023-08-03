@@ -179,69 +179,6 @@
       "color": "blue",
       "company": "toyota",
       "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "price": "450",
-      "name": "Ferrari Spider",
-      "carsleft": "34",
-      "color": "red",
-      "company": "Ferrari",
-      "picture": "https://images.pexels.com/photos/16634773/pexels-photo-16634773/free-photo-of-renault-clio-sport.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "id": "1tEXCRE"
-    },
-    {
-      "price": "700",
-      "name": "Mercedes",
-      "carsleft": "23",
-      "color": "blue",
-      "company": "Mercedes",
-      "picture": "https://images.pexels.com/photos/17476971/pexels-photo-17476971/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "id": "hv3jjud"
-    },
-    {
-      "price": "130",
-      "name": "Supra",
-      "carsleft": 0,
-      "color": "Blue",
-      "company": "Nissan",
-      "picture": "https://images.pexels.com/photos/16612794/pexels-photo-16612794/free-photo-of-bmw-gt.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "id": "kjri0Va"
-    },
-    {
-      "price": "570",
-      "name": "Mercedes",
-      "carsleft": "34",
-      "color": "Red",
-      "company": "Ferrari",
-      "picture": "https://images.pexels.com/photos/17773192/pexels-photo-17773192/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "id": "gsdx-X4"
-    },
-    {
-      "price": "500",
-      "name": "Ferrari Spider",
-      "carsleft": "67",
-      "color": "red",
-      "company": "Ferrari",
-      "picture": "https://images.pexels.com/photos/17773192/pexels-photo-17773192/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "id": "UNouPrx"
-    },
-    {
-      "price": "300",
-      "name": "Mazda",
-      "carsleft": "4",
-      "color": "Beige",
-      "company": "Ferrari",
-      "picture": "https://images.pexels.com/photos/17476971/pexels-photo-17476971/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "id": "E8H8GOt"
-    },
-    {
-      "price": "230",
-      "name": "mazda rx7",
-      "carsleft": "15",
-      "color": "yellow",
-      "company": "Mazda",
-      "picture": "https://images.pexels.com/photos/17773192/pexels-photo-17773192/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "id": "q2Nxlk2"
     }
   ]
 }
