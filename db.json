@@ -1,185 +1,220 @@
 {
-    "cars": [
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Mercedes Benz AMG",
-        "carsleft": 30,
-        "color": "yellow",
-        "company": "Mercedes Benz",
-        "picture": "https://images.pexels.com/photos/17785054/pexels-photo-17785054/free-photo-of-mercedes-benz-gts.jpeg"
-      },
-      {
-        "id": "2",
-        "price": "$100",
-        "name": "Mercedes Benz G-Class",
-        "carsleft": 32,
-        "color": "blue",
-        "company": "Mercedes Benz",
-        "picture": "https://images.pexels.com/photos/17418689/pexels-photo-17418689/free-photo-of-mercedes-benz-g350d.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
-      },
-      {
-        "id": "3",
-        "price": "$100",
-        "name": "Renault K1",
-        "carsleft": 30,
-        "color": "light blue",
-        "company": "Renault",
-        "picture": "https://images.pexels.com/photos/17078638/pexels-photo-17078638/free-photo-of-vauxhall-corsa-griffin.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-      },
-      {
-        "id": "4",
-        "price": "$100",
-        "name": "Citroen A5",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "Citroen",
-        "picture": "https://images.pexels.com/photos/16636468/pexels-photo-16636468/free-photo-of-smart-brabus-convertible.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      },
-      {
-        "id": "1",
-        "price": "$100",
-        "name": "Toyota Camry",
-        "carsleft": 30,
-        "color": "blue",
-        "company": "toyota",
-        "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-      }
-      
-    ]
-  }
+  "cars": [
+    {
+      "id": "1",
+      "price": "$100",
+      "name": "Mercedes Benz AMG",
+      "carsleft": 30,
+      "color": "yellow",
+      "company": "Mercedes Benz",
+      "picture": "https://images.pexels.com/photos/17785054/pexels-photo-17785054/free-photo-of-mercedes-benz-gts.jpeg"
+    },
+    {
+      "id": "2",
+      "price": "$100",
+      "name": "Mercedes Benz G-Class",
+      "carsleft": 32,
+      "color": "blue",
+      "company": "Mercedes Benz",
+      "picture": "https://images.pexels.com/photos/17418689/pexels-photo-17418689/free-photo-of-mercedes-benz-g350d.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+    },
+    {
+      "id": "3",
+      "price": "$100",
+      "name": "Renault K1",
+      "carsleft": 30,
+      "color": "light blue",
+      "company": "Renault",
+      "picture": "https://images.pexels.com/photos/17078638/pexels-photo-17078638/free-photo-of-vauxhall-corsa-griffin.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "4",
+      "price": "$100",
+      "name": "Citroen A5",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "Citroen",
+      "picture": "https://images.pexels.com/photos/16636468/pexels-photo-16636468/free-photo-of-smart-brabus-convertible.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": "5",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "6",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "7",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "8",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "9",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "10",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "11",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "12",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "13",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "14",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "15",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "16",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "17",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "18",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "19",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "20",
+      "price": "$100",
+      "name": "Toyota Camry",
+      "carsleft": 30,
+      "color": "blue",
+      "company": "toyota",
+      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "price": "450",
+      "name": "Ferrari Spider",
+      "carsleft": "34",
+      "color": "red",
+      "company": "Ferrari",
+      "picture": "https://images.pexels.com/photos/16634773/pexels-photo-16634773/free-photo-of-renault-clio-sport.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "id": "1tEXCRE"
+    },
+    {
+      "price": "700",
+      "name": "Mercedes",
+      "carsleft": "23",
+      "color": "blue",
+      "company": "Mercedes",
+      "picture": "https://images.pexels.com/photos/17476971/pexels-photo-17476971/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "id": "hv3jjud"
+    },
+    {
+      "price": "130",
+      "name": "Supra",
+      "carsleft": "12",
+      "color": "Blue",
+      "company": "Nissan",
+      "picture": "https://images.pexels.com/photos/16612794/pexels-photo-16612794/free-photo-of-bmw-gt.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "id": "kjri0Va"
+    },
+    {
+      "price": "570",
+      "name": "Mercedes",
+      "carsleft": "34",
+      "color": "Red",
+      "company": "Ferrari",
+      "picture": "https://images.pexels.com/photos/17773192/pexels-photo-17773192/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "id": "gsdx-X4"
+    }
+  ]
+}
