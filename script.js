@@ -57,6 +57,8 @@ document.addEventListener("DOMContentLoaded", ()=>
         }
     }
 
+    // the addcar() function allows someone to add a car with all the details necessary
+    // then refresh the page and see it displayed
     function addcar()
     {
         fetch("http://localhost:3000/cars", 
