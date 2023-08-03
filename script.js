@@ -59,10 +59,12 @@ document.addEventListener("DOMContentLoaded", ()=>
 
     function addcar()
     {
-        fetch("http://localhost:3000/cars", {
+        fetch("http://localhost:3000/cars", 
+        {
             method:"POST",
             headers:{"Content-Type":"application/json"},
-            body:JSON.stringify({
+            body:JSON.stringify
+            ({
                 price:document.getElementById("prices").value,
                 name:document.getElementById("carname").value,
                 carsleft:document.getElementById("carsleft").value,
