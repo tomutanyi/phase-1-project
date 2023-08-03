@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", ()=>
                 <div class="container">
                     <h4><b>${car.name}</b></h4> 
                     <p>${car.price}</p>
+                    <h3>Available cars</h3>
                     <p id = "carsleft${car.id}">${car.carsleft}</p>
                     <button id = "reserve${car.id}" class= "reserve">Reserve</button>
                 </div>
