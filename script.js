@@ -42,7 +42,18 @@ document.addEventListener("DOMContentLoaded", ()=>
                 }
             });
             
-
+            function updateCarsLeft(carId, newCarsLeft) {
+                fetch(`http://localhost:3000/cars/${carId}`, {
+                    method: "PATCH",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        carsleft: newCarsLeft,
+                    }),
+                })
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.log(error));
+            }
         }
     }
 
