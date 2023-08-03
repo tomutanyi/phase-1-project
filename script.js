@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", ()=>
         .catch(error=>console.log(error))
     }
 
+    // submit new car event listener
     let carform = document.getElementById("carsubmit")
     carform.addEventListener("submit",function(event)
     {
@@ -85,7 +86,7 @@ document.addEventListener("DOMContentLoaded", ()=>
         addcar()
         carform.reset() 
     })
-
+        // search function
         const search = document.getElementById("search");
         const searchButton = document.getElementById("searchButton");
         searchButton.addEventListener("click", () => {
