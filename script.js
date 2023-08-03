@@ -86,4 +86,29 @@ document.addEventListener("DOMContentLoaded", ()=>
         carform.reset() 
     })
 
+        const search = document.getElementById("search");
+        const searchButton = document.getElementById("searchButton");
+        searchButton.addEventListener("click", () => {
+            // adding toLowerCase is important since it means the user can type in whatever case they want
+            const nameToBeSearched = search.value.toLowerCase();
+            findCarName(nameToBeSearched);
+        });
+
+        function findCarName(nameToBeSearched) 
+        {
+            const allCarNames = document.querySelectorAll(".card");
+            for (const carcard of allCarNames) 
+            {
+                //the h4 element content must also be in lowercase for them to match
+                const carName = carcard.querySelector("h4").innerText.toLowerCase();
+                if (carName.includes(nameToBeSearched)) 
+                {
+                    carcard.style.display = "block";
+                } 
+                else 
+                {
+                    carcard.style.display = "none";
+                }
+            }
+        }
 })
