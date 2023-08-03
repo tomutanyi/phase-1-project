@@ -94,17 +94,23 @@ document.addEventListener("DOMContentLoaded", ()=>
             findCarName(nameToBeSearched);
         });
 
+        // this is a function to search by car name.
         function findCarName(nameToBeSearched) 
         {
+            // gets all the elements that match .card, which is where the car details are
             const allCarNames = document.querySelectorAll(".card");
             for (const carcard of allCarNames) 
             {
                 //the h4 element content must also be in lowercase for them to match
+                // the h4 element is the one with car names from the db.json file
                 const carName = carcard.querySelector("h4").innerText.toLowerCase();
+                //displays the car or cars whose name or part of a name match the searched name
+                // for example if i search 'e' all car names with 'e' are shown
                 if (carName.includes(nameToBeSearched)) 
                 {
-                    carcard.style.display = "block";
+                    carcard.style.display = "inline-block";
                 } 
+                //displays nothing if the car being looked for isn't found
                 else 
                 {
                     carcard.style.display = "none";
