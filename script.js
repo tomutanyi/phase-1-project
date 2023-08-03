@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", ()=> // this ensures all the html 
                 <img src="${car.picture}" alt="Car Image" style="width:100%">
                 <div class="container">
                     <h4><b>${car.name}</b></h4> 
-                    <p>${car.price}</p>
-                    <p id = "carsleft${car.id}">${car.carsleft}</p>
+                    <p>Rental Price: Ksh.${car.price}</p>
+                    <p id = "carsleft${car.id}">Cars available: ${car.carsleft}</p>
                     <button id = "reserve${car.id}" class= "reserve">Reserve</button>
                 </div>
             </div>
