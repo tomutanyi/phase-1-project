@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", ()=>
             `
             listcars.appendChild(li)
 
+            //this event listener listens for a click and reduces the number of cars left for a particular car by 1
             let reserve = document.querySelector(`#reserve${car.id}`)
             let carsleft = document.querySelector(`#carsleft${car.id}`)
             reserve.addEventListener("click", () => {
@@ -37,11 +38,12 @@ document.addEventListener("DOMContentLoaded", ()=>
                     remaining = parseInt(remaining) - 1;
                     carsleft.innerText = `${remaining}`;
                     updateCarsLeft(car.id, remaining);
+                // when cars left is <= 0 then an alert is fired
                 } else {
                     alert('No more cars available for reservation.');
                 }
             });
-            
+            // updateCarsLeft function changes the cars left in the db.json file.
             function updateCarsLeft(carId, newCarsLeft) {
                 fetch(`http://localhost:3000/cars/${carId}`, {
                     method: "PATCH",
