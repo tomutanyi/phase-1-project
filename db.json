@@ -215,6 +215,15 @@
       "company": "Ferrari",
       "picture": "https://images.pexels.com/photos/17773192/pexels-photo-17773192/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "id": "gsdx-X4"
+    },
+    {
+      "price": "500",
+      "name": "Ferrari Spider",
+      "carsleft": "67",
+      "color": "red",
+      "company": "Ferrari",
+      "picture": "https://images.pexels.com/photos/17773192/pexels-photo-17773192/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "id": "UNouPrx"
     }
   ]
 }
