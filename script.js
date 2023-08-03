@@ -1,14 +1,14 @@
-document.addEventListener("DOMContentLoaded", ()=>
+document.addEventListener("DOMContentLoaded", ()=> // this ensures all the html has loaded first
 {
     let listcars = document.getElementById("cars")
-
-
+    //this fetches the data from the db.json file 
     fetch("http://localhost:3000/cars")
         .then(resp => resp.json())
         .then(data => displayCars(data))
         .catch(error => console.log(error))
 
 
+    // this displays all the cars in the db.json file to the html file
     function displayCars(cars)
     {
         for (const car of cars)
