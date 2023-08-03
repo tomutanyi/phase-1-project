@@ -31,12 +31,18 @@ document.addEventListener("DOMContentLoaded", ()=>
 
             let reserve = document.querySelector(`#reserve${car.id}`)
             let carsleft = document.querySelector(`#carsleft${car.id}`)
-            reserve.addEventListener("click", ()=>
-            {
-                let remaining = parseInt(carsleft.textContent)
-                remaining = parseInt(remaining)-1
-                carsleft.innerText = `${remaining}`
-            }) 
+            reserve.addEventListener("click", () => {
+                let remaining = parseInt(carsleft.textContent);
+                if (remaining > 0) {
+                    remaining = parseInt(remaining) - 1;
+                    carsleft.innerText = `${remaining}`;
+                    updateCarsLeft(car.id, remaining);
+                } else {
+                    alert('No more cars available for reservation.');
+                }
+            });
+            
+
         }
     }
 
