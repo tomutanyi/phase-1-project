@@ -38,6 +38,7 @@ body {
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     color: aliceblue;
+    background-color: chartreuse;
   }
   
   .container {
@@ -55,7 +56,7 @@ body {
     width: 250px;
     height: auto;
     position: relative;
-    background: #c98181;
+    background: #5d49cd;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -68,8 +69,15 @@ body {
 
   .reserve{
     color: blue;
+    border: #333;
+    border-radius: 10%;
+    border-color: #5d49cd;
+    padding: 12px 56px;
+    cursor: pointer;
+
   }
 
   .reserve:hover{
-    color: darkgray;
+    color: rgb(167, 19, 19);
+    background-color: black;
   }
