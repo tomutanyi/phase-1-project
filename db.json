@@ -4,7 +4,7 @@
       "id": "1",
       "price": "100",
       "name": "Mercedes Benz AMG",
-      "carsleft": 711,
+      "carsleft": 710,
       "color": "yellow",
       "company": "Mercedes Benz",
       "picture": "https://images.pexels.com/photos/17785054/pexels-photo-17785054/free-photo-of-mercedes-benz-gts.jpeg"
@@ -31,7 +31,7 @@
       "id": "4",
       "price": "100",
       "name": "Citroen A5",
-      "carsleft": 28,
+      "carsleft": 27,
       "color": "blue",
       "company": "Citroen",
       "picture": "https://images.pexels.com/photos/16636468/pexels-photo-16636468/free-photo-of-smart-brabus-convertible.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -183,7 +183,7 @@
     {
       "price": "100",
       "name": "Ferrari Spider",
-      "carsleft": 20,
+      "carsleft": 19,
       "color": "Beige",
       "company": "Ferrari",
       "picture": "https://images.pexels.com/photos/17773192/pexels-photo-17773192/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
