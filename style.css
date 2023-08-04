@@ -167,7 +167,13 @@ footer a:hover {
 #searchButton:hover {
   background-color: #064b09;
 }
-
+#title{
+  background-color: #04AA6D;
+  justify-content: center;
+  justify-self: center;
+  margin: 0% auto;
+  text-align: center;
+}
 
 
 
