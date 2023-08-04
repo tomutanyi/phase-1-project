@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", ()=>
 
 
     // fetching the data from the db.json file and displaying it on the webpage
-    fetch("http://localhost:3000/cars")
+    fetch("https://rush-car-rental.onrender.com/cars")
         .then(resp => resp.json())
         .then(data => displayCars(data))
         .catch(error => console.log(error))
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", ()=>
             
             // the PATCH request to edit the number of cars left for a particular car
             function updateCarsLeft(carId, newCarsLeft) {
-                fetch(`http://localhost:3000/cars/${carId}`, {
+                fetch(`https://rush-car-rental.onrender.com/cars/${carId}`, {
                     method: "PATCH",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", ()=>
     // a function to add a car with all the relevant details
     function addcar()
     {
-        fetch("http://localhost:3000/cars", 
+        fetch("https://rush-car-rental.onrender.com/cars", 
         {
             method:"POST",
             headers:{"Content-Type":"application/json"},
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", ()=>
         //a function to delete a car by it's ID, which is visible on the webpage
         function deleteOneCar(id) {
             // The DELETE method
-            fetch(`http://localhost:3000/cars/${id}`, {
+            fetch(`https://rush-car-rental.onrender.com/cars/${id}`, {
               method: "DELETE"
             })
               .then(response => console.log(response.status))
