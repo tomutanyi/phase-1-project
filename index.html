@@ -7,26 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="topnav">
+  <!-- The navbar -->
+    <div class="navbar">
         <a class="active" href="index.html">Home</a>
-        <a href="#cars">News</a>
-        <a href="#form">Form</a>
-        <a href="#about">About</a>
+        <a href="#cars">Available Cars</a>
+        <a href="#form">Add a Car</a>
+        <a href="#contact">Contact</a>
+        <a href="#Blog Post">Blog Post</a>
+        <button id="deletecar">Click here to delete a car</button>
       </div>
+      <!-- The input button -->
       <input type="text" id="search" placeholder="Search by car name">
-      <button id="searchButton">Search</button>
+      <button id="searchButton">Search</button><br><br>
 
+      <!-- webpage title -->
       <div id="title">
         <h1>Welcome to Rush Car Rental!</h1>
         <h3>Browse through our collection of cars and reserve as many as you need</h3>
         <h3>Visit our offices in Westlands to fill out some forms and pick up your car</h3>
-      </div>
+      </div><br><br>
 
+      <!-- The div to be filled by cars from the db.json file -->
       <div id="cars" class="cars1">
         
       </div><br><br><br>
+
+      <!-- A form to add a new car to be rented with the number of cars available -->
       <div id="form" class="form">
-        <h2>Enter the details for a car you would like to rent out</h2>
+        <h2>Enter the details for a car you would like to rent out on our platform</h2>
         <form action="" id="carsubmit">
           <label for="price">Rental price: </label>
           <input type="number" id="prices" name="price" value="prices" placeholder="Rental price of car">
@@ -43,8 +51,17 @@
           <button type="submit">Submit</button>
         </form>
 
-      </div>
+        
 
+      </div><br><br><br>
+
+      <!-- Contacts -->
+      <div id="contact" class="contact">
+        <p><a href="mailto:mutanyi@rushrental.com">Send us an email</a></p>
+        <p>Call us at this number: 0721-001-002</p>
+      </div><br><br>
+
+      <!-- A footer -->
     <footer>
         <p>Author: Tom Omele Mutanyi<br>
         Copyright: Tom Omele Mutanyi 2023</p>
