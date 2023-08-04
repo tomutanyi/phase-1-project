@@ -1,3 +1,11 @@
+// this need to load before DOM
+function dark()
+{
+    let page = document.body;
+    // the classlist.toggle means that pressing the button will return it to light mode
+    page.classList.toggle("dark-mode");
+}
+
 // this ensures the Javascript is loaded after the HTML
 document.addEventListener("DOMContentLoaded", ()=>
 {
@@ -164,6 +172,7 @@ document.addEventListener("DOMContentLoaded", ()=>
 
 
               }
+
 
 
               
