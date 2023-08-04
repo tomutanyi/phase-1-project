@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", ()=>
             <div class="card">
                 <img src="${car.picture}" alt="Car Image" style="width:100%">
                 <div class="container">
+                    <p>Car ID: ${car.id}</p>
                     <h4><b>${car.name}</b></h4> 
                     <p>Daily Rental Price: KSh.${car.price}</p>
                     <h3>Available cars</h3>

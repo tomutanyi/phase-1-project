@@ -57,9 +57,7 @@ body {
   }
   .card{
     width: 250px;
-    height: auto;
-    position: relative;
-    background: #5d49cd;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -67,7 +65,10 @@ body {
     align-items: center;
     border-radius: 4px;
     padding: 20px;
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
+    position: relative;
+    background: #5d49cd;
+
   }
 
   .reserve{

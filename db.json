@@ -39,20 +39,20 @@
     {
       "id": "5",
       "price": "100",
-      "name": "Toyota Camry",
+      "name": "Peugeot 208",
       "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "color": "Black",
+      "company": "Peugeot",
+      "picture": "https://images.pexels.com/photos/16636049/pexels-photo-16636049/free-photo-of-peugeot-308cc-convertible.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "6",
       "price": "100",
-      "name": "Toyota Camry",
+      "name": "Clio RX-2",
       "carsleft": 29,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "color": "Black",
+      "company": "lio",
+      "picture": "https://images.pexels.com/photos/16634658/pexels-photo-16634658/free-photo-of-renault-clio-sport.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "7",
