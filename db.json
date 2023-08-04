@@ -2,16 +2,16 @@
   "cars": [
     {
       "id": "1",
-      "price": "100",
+      "price": "11000",
       "name": "Mercedes Benz AMG",
-      "carsleft": 710,
+      "carsleft": 20,
       "color": "yellow",
       "company": "Mercedes Benz",
       "picture": "https://images.pexels.com/photos/17785054/pexels-photo-17785054/free-photo-of-mercedes-benz-gts.jpeg"
     },
     {
       "id": "2",
-      "price": "100",
+      "price": "10000",
       "name": "Mercedes Benz G-Class",
       "carsleft": 26,
       "color": "blue",
@@ -20,7 +20,7 @@
     },
     {
       "id": "3",
-      "price": "100",
+      "price": "9000",
       "name": "Renault K1",
       "carsleft": 29,
       "color": "light blue",
@@ -29,7 +29,7 @@
     },
     {
       "id": "4",
-      "price": "100",
+      "price": "5000",
       "name": "Citroen A5",
       "carsleft": 27,
       "color": "blue",
@@ -38,156 +38,147 @@
     },
     {
       "id": "5",
-      "price": "100",
+      "price": "4500",
       "name": "Peugeot 208",
-      "carsleft": 30,
+      "carsleft": 25,
       "color": "Black",
       "company": "Peugeot",
       "picture": "https://images.pexels.com/photos/16636049/pexels-photo-16636049/free-photo-of-peugeot-308cc-convertible.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "6",
-      "price": "100",
+      "price": "2300",
       "name": "Clio RX-2",
-      "carsleft": 29,
+      "carsleft": 27,
       "color": "Black",
-      "company": "lio",
+      "company": "Clio",
       "picture": "https://images.pexels.com/photos/16634658/pexels-photo-16634658/free-photo-of-renault-clio-sport.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "7",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "9000",
+      "name": "Corvette J8",
+      "carsleft": 18,
+      "color": "Gunmetal Gray",
+      "company": "Corvette",
+      "picture": "https://images.pexels.com/photos/16626639/pexels-photo-16626639/free-photo-of-jaguar-f-type-r.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "8",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "19000",
+      "name": "Ferrari Spider",
+      "carsleft": 22,
+      "color": "Red",
+      "company": "Ferrari",
+      "picture": "https://images.pexels.com/photos/16386035/pexels-photo-16386035/free-photo-of-ferrari.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "9",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "10000",
+      "name": "Range Rover",
+      "carsleft": 20,
+      "color": "Silver",
+      "company": "Range Rover",
+      "picture": "https://images.pexels.com/photos/16365208/pexels-photo-16365208/free-photo-of-land-rover.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
-      "id": "10",
+      "id": "7500",
       "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "name": "Audi A8",
+      "carsleft": 23,
+      "color": "Light Blue",
+      "company": "Audi",
+      "picture": "https://images.pexels.com/photos/14722736/pexels-photo-14722736.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "11",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "8000",
+      "name": "Volkswagen Tiguan",
+      "carsleft": 26,
+      "color": "Grey",
+      "company": "Volkswagen",
+      "picture": "https://images.pexels.com/photos/14038622/pexels-photo-14038622.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "12",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "2600",
+      "name": "KIA T4",
+      "carsleft": 22,
+      "color": "White",
+      "company": "KIA",
+      "picture": "https://images.pexels.com/photos/7290407/pexels-photo-7290407.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "13",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "1200",
+      "name": "Fiat Mini",
+      "carsleft": 11,
+      "color": "Green",
+      "company": "Fiat",
+      "picture": "https://images.pexels.com/photos/7459483/pexels-photo-7459483.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "14",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "11000",
+      "name": "BMW X5",
+      "carsleft": 24,
+      "color": "White",
+      "company": "BMW",
+      "picture": "https://images.pexels.com/photos/7762720/pexels-photo-7762720.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "15",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "3700",
+      "name": "Ford Focus",
+      "carsleft": 19,
+      "color": "Steel Grey",
+      "company": "Ford",
+      "picture": "https://images.pexels.com/photos/7808337/pexels-photo-7808337.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "16",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "4800",
+      "name": "Volvo D-89",
+      "carsleft": 13,
+      "color": "Silver",
+      "company": "Volvo",
+      "picture": "https://images.pexels.com/photos/4259350/pexels-photo-4259350.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "17",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "1000",
+      "name": "Suzuki G-3",
+      "carsleft": 22,
+      "color": "Silver",
+      "company": "Suzuki",
+      "picture": "https://images.pexels.com/photos/2351696/pexels-photo-2351696.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "18",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "8000",
+      "name": "Ford Ranger",
+      "carsleft": 21,
+      "color": "Neon Orange",
+      "company": "Ford",
+      "picture": "https://images.pexels.com/photos/2203128/pexels-photo-2203128.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "19",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "price": "11000",
+      "name": "Range Rover Sport",
+      "carsleft": 15,
+      "color": "Maroon",
+      "company": "Range Rover",
+      "picture": "https://images.pexels.com/photos/225838/pexels-photo-225838.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     },
     {
       "id": "20",
-      "price": "100",
-      "name": "Toyota Camry",
-      "carsleft": 30,
-      "color": "blue",
-      "company": "toyota",
-      "picture": "https://images.pexels.com/photos/9598105/pexels-photo-9598105.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "price": "100",
-      "name": "Ferrari Spider",
-      "carsleft": 19,
-      "color": "Beige",
-      "company": "Ferrari",
-      "picture": "https://images.pexels.com/photos/17773192/pexels-photo-17773192/free-photo-of-mercedes-benz-gts.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "id": "i1aLcM6"
+      "price": "20000",
+      "name": "Jeep",
+      "carsleft": 17,
+      "color": "Navy Blue",
+      "company": "Jeep",
+      "picture": "https://images.pexels.com/photos/104401/pexels-photo-104401.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     }
   ]
 }

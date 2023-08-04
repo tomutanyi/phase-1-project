@@ -82,8 +82,7 @@ body {
   }
 
   .reserve:hover{
-    color: rgb(167, 19, 19);
-    background-color: black;
+    color: rgb(12, 3, 74);
   }
   /* Form styles */
 .form {
