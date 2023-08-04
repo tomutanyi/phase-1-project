@@ -6,6 +6,8 @@
 This is a website that allows users to view available cars on the website, reserve cars, add cars to the website and delete cars from the website.
 All of these changes are permanent and are reflected on the db.json file. They persist even after reloading the page.
 
+Here is a [link](https://medium.com/@tomutanyi/my-moringa-school-phase-1-project-6a91ccd49a72) to my blog post on the project. 
+
 ### Project Setup
 
 The project requires the installation of Node in order to work. You can find the instructions to install Node [here](https://nodejs.org/en)
