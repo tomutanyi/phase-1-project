@@ -1,4 +1,15 @@
 // this need to load before DOM
+let darkbutton = document.getElementById("darkmode")
+function red()
+{
+    darkbutton.style.color = "red"
+}
+
+function black()
+{
+    darkbutton.style.color = "black"
+}
+
 function dark()
 {
     let page = document.body;
@@ -108,7 +119,8 @@ document.addEventListener("DOMContentLoaded", ()=>
 
         const search = document.getElementById("search");
         const searchButton = document.getElementById("searchButton");
-        searchButton.addEventListener("click", () => {
+        searchButton.addEventListener("click", () => 
+        {
             // adding toLowerCase is important since it means the user can type in whatever case they want
             const nameToBeSearched = search.value.toLowerCase();
             findCarName(nameToBeSearched);
