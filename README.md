@@ -9,6 +9,12 @@ All of these changes are permanent and are reflected on the db.json file. They p
 Here is the link to my project web page: [Rush Car Rental](https://tomutanyi.github.io/phase-1-project/)
 
 Here is a [link](https://medium.com/@tomutanyi/my-moringa-school-phase-1-project-6a91ccd49a72) to my blog post on the project. 
+### Project features
+
+1. Reserving a car
+clicking on the reserve button reduces the amount of cars available through a PATCH request
+
+![Alt text](/images/vlc_fZAm2hSHiK.png)
 
 ### Project Setup
 
